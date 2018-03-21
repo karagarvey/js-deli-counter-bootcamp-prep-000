@@ -23,7 +23,9 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i > katzDeliLine.length; i++) {
       var linePhrase =  []
       linePhrase.push('${i + 1} + ". " + ${katzDeliLine[i]}')
-      console.log(linePhrase)
+      console.log("linePhrase: " + linePhrase)
+      console.log("i:" + i)
+      console.log("name at i: " + katzDeliLine[i])
     }
   return `The line is currently: ${linePhrase}`
   }
