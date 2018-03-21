@@ -10,7 +10,6 @@ function nowServing (katzDeliLine) {
     console.log(katzDeliLine)
     katzDeliLine.splice[0, 1]
     return `Currently serving ${katzDeliLine[0]}.`
-
     console.log(katzDeliLine)
   } else {
       return 'There is nobody waiting to be served!'
