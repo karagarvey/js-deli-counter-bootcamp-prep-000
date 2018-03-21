@@ -20,8 +20,8 @@ function currentLine(katzDeliLine) {
       return 'The line is currently empty.'
       console.log('empty')
   } else {
-    for (var i = 0; i > katzDeliLine.length; i++) {
-      linePhrase.push('${i + 1} + ". " + ${katzDeliLine[i]}')
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      linePhrase.push(`${i + 1} + ". " + ${katzDeliLine[i]}`)
       console.log("linePhrase: " + linePhrase)
       console.log("i:" + i)
       console.log("name at i: " + katzDeliLine[i])
