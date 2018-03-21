@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
       console.log('empty')
   } else {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      linePhrase.push(`${i + 1}. ${katzDeliLine[i]}`)
+      linePhrase.push(`${i + 1}. ${katzDeliLine[i]} `)
       console.log("linePhrase: " + linePhrase)
       console.log("i:" + i)
       console.log("name at i: " + katzDeliLine[i])
