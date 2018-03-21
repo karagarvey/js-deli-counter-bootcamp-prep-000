@@ -26,5 +26,5 @@ function currentLine(katzDeliLine) {
       console.log("i:" + i)
       console.log("name at i: " + katzDeliLine[i])
     }
-  } return `The line is currently: ${linePhrase.slice(-2)}`
+  } return `The line is currently: ${linePhrase}`
 }
