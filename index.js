@@ -9,7 +9,7 @@ function nowServing (katzDeliLine) {
   if (katzDeliLine.length > 0) {
     console.log(katzDeliLine)
     return `Currently serving ${katzDeliLine[0]}.`
-    katzDeliLine.slice[1]
+    katzDeliLine.splice[0, 1]
     console.log(katzDeliLine)
   } else {
       return 'There is nobody waiting to be served!'
