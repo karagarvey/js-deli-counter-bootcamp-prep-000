@@ -17,11 +17,11 @@ function nowServing (katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
+  var linePhrase =  []
   if(katzDeliLine.length === 0) {
       return 'The line is currently empty.'
   } else {
     for (var i = 0; i > katzDeliLine.length; i++) {
-      var linePhrase =  []
       linePhrase.push('${i + 1} + ". " + ${katzDeliLine[i]}')
       console.log("linePhrase: " + linePhrase)
       console.log("i:" + i)
